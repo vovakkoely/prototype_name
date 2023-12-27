@@ -1,7 +1,7 @@
 'use strict';
 
 var supportsDescriptors = require('define-properties').supportsDescriptors;
-var functionsHaveNames = require('functions-have-names')();
+var functionsHaveNames = require('functions-have')();
 var getPolyfill = require('./polyfill');
 var defineProperty = Object.defineProperty;
 var TypeErr = TypeError;
